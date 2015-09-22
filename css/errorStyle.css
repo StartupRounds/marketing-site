@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  background-color: #373e4b;
+  margin: auto;
+  text-align: center;
+  padding-top: 7%;
+}
+
+a {
+  color: #005c88;
+  text-decoration: underline;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+a:hover {
+  color: #03a688;
+}
+
+.page-404 {
+  background-color: #fff;
+  padding: 60px 30px;
+  width: 525px;
+  border-radius: 15px;
+  margin: auto;
+  color: #636363;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-404 p:first-child {
+  margin: 0 65px 65px;
+}
+
+.page-404 p:last-child {
+  margin: 85px 50px 0;
+}
